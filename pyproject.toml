@@ -1,0 +1,20 @@
+[project]
+name = "domain-topic-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Joe Eberle", email = "josepheberle@outlook.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "nltk>=3.9.1",
+    "rapidfuzz>=3.13.0",
+]
+
+[project.scripts]
+domain-topic-classifier = "domain_topic_classifier:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

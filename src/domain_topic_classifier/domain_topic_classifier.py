@@ -1,7 +1,5 @@
-import re 
+import re
 from rapidfuzz import fuzz
-from nltk.stem import PorterStemmer
-from nltk.tokenize import word_tokenize
 
 # Domain keywords organized for clarity and scalability
 
@@ -89,6 +87,9 @@ DOMAIN_KEYWORDS = {
     }
 }
 
+
+
+
 TOPIC_KEYWORDS = {
     "disease": {"cancer", "diabetes", "diabetic", "myocardial", "asthma", "cholesterol", "blood pressure", "illness", "pnuemonia"},
     "chronic disease": {"diabetes", "obesity", "arthritis", "osteoporosis", "chronic pain"},
@@ -96,8 +97,6 @@ TOPIC_KEYWORDS = {
     "infectious disease": {"covid", "flu", "hepatitis", "hiv", "aids", "tuberculosis", "malaria", "influenza", "flu", "covid"},
     "respiratory disease ": {"asthma", "copd", "bronchitis"},
     "neurological": {"alzheimers", "parkinsons", "depression", "anxiety", "autism", "epilepsy"},
-    "ethnicity": {"jew", "jewish", "black", "white", "african amaerican", "native american", "latino", "hispanic"},    
-    "race": {"jew", "jewish", "black", "white", "african amaerican", "native american", "latino", "hispanic"},    
     "condition": {"pregnancy", "smoking", "addicted", "addict","addicted"},
     "weight": {"obese", "fat", "skinny", "diet", "weight loss", "overweight","obesity"},
     "medication": {"ozempic", "wegovy", "aspirin", "viagra", "opioid", "statin", "antidepressant", "antibiotics", "acetaminophen", "ibuprofen", "painkiller",
@@ -140,9 +139,7 @@ TOPIC_TO_DOMAIN = {
     "infectious disease": "health_care", 
     "chronic disease": "health_care",  
     "lab result": "health_care",          
-    "behavioral": "health_care",  
-    "ethnicity": "health_care",   
-    "race": "health_care",   
+    "behavioral": "health_care",   
     "condition": "health_care",       
     "anatomy": "health_care",      
     "weight": "health_care",      
@@ -272,6 +269,12 @@ SEXISM_KEYWORDS = {
     }
 }
 
+import yaml
+import re
+from pathlib import Path
+from rapidfuzz import fuzz
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
 
 # Load and prepare keyword lists
 def load_keywords(file_path):
