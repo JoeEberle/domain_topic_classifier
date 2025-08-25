@@ -1,9 +1,9 @@
-2025-07-20 22:34:55,770 - INFO - START domain_topic_classifier =============================================
-2025-07-20 22:34:55,770 - INFO - START domain_topic_classifier Start Time = 2025-07-20 22:34:55
-2025-07-20 22:34:55,770 - INFO - domain_topic_classifier Step 0 - Initialize the configuration file parser
-2025-07-20 22:34:55,770 - INFO - Process domain_topic_classifier Step 0 - Initializing and starting Logging Process.
-2025-07-20 22:34:55,852 - INFO - PERFORMANCE domain_topic_classifier The total process duration was:0.08
-2025-07-20 22:34:55,853 - INFO - PERFORMANCE domain_topic_classifier Stop Time = 2025-07-20 22:34:55
-2025-07-20 22:34:55,853 - INFO - PERFORMANCE domain_topic_classifier Short process duration less than 3 Seconds:0.08
-2025-07-20 22:34:55,853 - INFO - PERFORMANCE domain_topic_classifier Performance optimization is not reccomended
-2025-07-20 22:34:55,853 - INFO - END domain_topic_classifier =============================================
+2025-08-20 23:55:02,001 - INFO - START domain_topic_classifier =============================================
+2025-08-20 23:55:02,001 - INFO - START domain_topic_classifier Start Time = 2025-08-20 23:55:02
+2025-08-20 23:55:02,001 - INFO - domain_topic_classifier Step 0 - Initialize the configuration file parser
+2025-08-20 23:55:02,002 - INFO - Process domain_topic_classifier Step 0 - Initializing and starting Logging Process.
+2025-08-20 23:55:02,133 - INFO - PERFORMANCE domain_topic_classifier The total process duration was:0.13
+2025-08-20 23:55:02,135 - INFO - PERFORMANCE domain_topic_classifier Stop Time = 2025-08-20 23:55:02
+2025-08-20 23:55:02,135 - INFO - PERFORMANCE domain_topic_classifier Short process duration less than 3 Seconds:0.13
+2025-08-20 23:55:02,136 - INFO - PERFORMANCE domain_topic_classifier Performance optimization is not reccomended
+2025-08-20 23:55:02,136 - INFO - END domain_topic_classifier =============================================

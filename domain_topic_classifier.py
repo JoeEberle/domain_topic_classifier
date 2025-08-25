@@ -9,8 +9,8 @@ DOMAIN_KEYWORDS = {
     "healthcare": {
         # General health & conditions
         "health", "wellness", "clinic", "hospital", "doctor", "nurse", "therapist", "patient", "medical", "medicine",
-        "prescription", "medication", "treatment", "diagnosis", "condition", "procedure", "visit", "admission", 
-        "dr", "practice", "therapy", "scan", "lab", "biopsy", "epidemic", "pandemic", "fever", "rash", "cough",
+        "prescription", "medication", "treatment", "diagnosis", "condition", "procedure", "visit", "admission", "allergies"
+        "dr", "practice", "therapy", "scan", "lab", "biopsy", "epidemic", "pandemic", "fever", "rash", "cough", "allergy"
         "sepsis", "infection", "pneumonia", "screening", "checkup", "overweight", "obese", "weight", "diet", "exercise",
         "walking", "sleep", "sleeping", "lonely", "sadness", "anxiety", "depression", "addiction", "substance abuse",
 
@@ -161,7 +161,7 @@ HOSTILITY_KEYWORDS = {
         "combat", "uprising", "rebellion", "hostile", "oppress", "occupation", "moron", "stupid", "idiot", "retarded"
     },
     "violent": {"attack", "murder", "slaughter", "massacre", "kill", "stab", "assault", "execute", "terror", "ambush", "raid"},
-    "aggressive": {"rage", "furious", "angry", "curse", "abuse", "harass", "insult", "threat", "violence", "retaliate"},
+    "aggressive": {"rage", "furious", "angry", "curse",  "harass", "insult", "threat", "violence", "retaliate"},
     "military": {"war", "battle", "conflict", "combat", "uprising", "rebellion", "hostile", "oppress", "occupation"},
     "homophobic": {
         "fag", "faggot", "dyke", "no homo", "gay agenda", "gay disease", "sodomite", 
